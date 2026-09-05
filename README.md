@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Petalo — reusable UI for the MacBook notch and external displays" width="760"/>
-</p>
-
 # Petalo
 
 **A native macOS contextual assistant attached to the notch.**
