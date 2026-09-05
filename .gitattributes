@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.swift text diff=swift
+*.plist text
+*.svg text
+*.sh text eol=lf
+*.icns binary
+*.png binary
+# The prebuilt shader library is committed as a resource. A text round-trip
+# corrupts it silently: swift build still succeeds and the notch scrim only
+# fails at runtime. Never let it be treated as text.
+*.metallib binary

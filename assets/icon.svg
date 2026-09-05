@@ -1,0 +1,33 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Petalo app icon">
+  <defs>
+    <linearGradient id="background" x1="128" y1="96" x2="896" y2="928" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3f3f52"/>
+      <stop offset="1" stop-color="#101016"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="512" y1="100" x2="512" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="512" cy="600" r="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#aab4ff" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#aab4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="petal" x1="512" y1="360" x2="512" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7ddff"/>
+    </linearGradient>
+    <clipPath id="squircle"><rect x="100" y="100" width="824" height="824" rx="184"/></clipPath>
+  </defs>
+  <g clip-path="url(#squircle)">
+    <rect x="100" y="100" width="824" height="824" fill="url(#background)"/>
+    <rect x="100" y="100" width="824" height="824" fill="url(#rim)"/>
+    <circle cx="512" cy="600" r="300" fill="url(#glow)"/>
+    <path d="M330 100h364v128c0 34-28 62-62 62H392c-34 0-62-28-62-62V100Z" fill="#050507"/>
+    <g fill="url(#petal)" transform="translate(512 664) scale(1.52)">
+      <path d="M0 -150C25.8 -120 38 -60 0 0 -38 -60 -25.8 -120 0 -150Z" transform="rotate(-52)"/>
+      <path d="M0 -150C25.8 -120 38 -60 0 0 -38 -60 -25.8 -120 0 -150Z" transform="rotate(52)"/>
+      <path d="M0 -172C25.8 -137.6 38 -68.8 0 0 -38 -68.8 -25.8 -137.6 0 -172Z"/>
+    </g>
+  </g>
+  <rect x="104" y="104" width="816" height="816" rx="180" fill="none" stroke="#8b90bd" stroke-opacity=".22" stroke-width="8"/>
+</svg>
